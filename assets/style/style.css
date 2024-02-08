@@ -29,6 +29,10 @@ header{
 
 /* main */
 
+#start h1.title_md{
+  font-size: 4rem;
+}
+
 #start .star span{
-  width: 4rem;
+  width: 3.5rem;
 }
