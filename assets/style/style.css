@@ -1,0 +1,11 @@
+[class^="container"],
+[class^="col"]{
+  background-color: rgba(0, 255, 120, .2);
+  border: 1px solid black;
+  min-height: 90px;
+}
+
+.ad_container{
+  max-width: 600px;
+  margin: 0 auto;
+}
