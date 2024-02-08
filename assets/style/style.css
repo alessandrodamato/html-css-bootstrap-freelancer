@@ -30,9 +30,25 @@ header{
 /* main */
 
 #start h1.title_md{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 #start .star span{
-  width: 3.5rem;
+  width: 4rem;
+}
+
+/* media queries */
+
+/* tablet */
+@media screen and (min-width: 768px){
+  #start .star span{
+    width: 8rem;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1200px){
+  #start .star span{
+    width: 10rem;
+  }
 }
