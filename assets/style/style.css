@@ -48,6 +48,7 @@ section{
 .ad_form input::placeholder,
 .ad_form textarea::placeholder{
   color: var(--ad-main-blue);
+  opacity: 1;
   font-weight: 600;
 }
 
