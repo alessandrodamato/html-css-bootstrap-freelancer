@@ -3,30 +3,46 @@
   --ad-main-green:#1abc9c;
 }
 
-h2{
+h1{
   font-size: 2.5rem;
 }
 
+h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+section{
+  padding: 40px 0;
+}
+
 /* utilities */
-/* 
-[class^="container"],
-[class^="col"]{
-  border: 1px solid black;
-  min-height: 90px;
-} */
 
 .debug{
   border: 1px solid black;
 }
 
-.ad_text-bg_primary{
+.ad_text_bg_primary{
   color: white;
   background-color: var(--ad-main-blue);
 }
 
-.ad_text-bg_secondary{
+.ad_text_bg_secondary{
   color: white;
   background-color: var(--ad-main-green);
+}
+
+.ad_text_bg_tertiary{
+  color: var(--ad-main-blue);
+  background-color: white;
+}
+
+.ad_text_bg_tertiary h2{
+  color: black;
+}
+
+.ad_text_bg_tertiary .star span{
+  border-color: var(--ad-main-blue) !important;
 }
 
 .ad_form input::placeholder,
@@ -68,26 +84,29 @@ header{
   aspect-ratio: 1;
 }
 
-#jumbotron .jobs{
-  margin-bottom: 40px;
-}
-
 /* media queries */
 
 /* tablet */
 @media screen and (min-width: 768px){
 
+  h2{
+    font-size: 2.7rem;
+  }
+
+  section{
+    padding: 70px 0;
+  }
+
   header .title{
     font-size: 1.5rem;
   }
 
-  #jumbotron h2.title{
+  #jumbotron h1.title{
     font-size: 3.5rem;
   }
 
   #jumbotron .jobs{
     font-size: 1.75rem !important;
-    margin-bottom: 70px;
   }
 }
 
