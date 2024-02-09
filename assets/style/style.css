@@ -1,6 +1,11 @@
 :root{
   --ad-main-blue:#2c3e50;
+  --ad-secondary-blue:#3a546d;
   --ad-main-green:#1abc9c;
+}
+
+body{
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 h1{
@@ -9,7 +14,6 @@ h1{
 
 h2{
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 section{
@@ -37,6 +41,11 @@ section{
   background-color: white;
 }
 
+.ad_text_bg_quaternary{
+  color: white;
+  background-color: var(--ad-secondary-blue);
+}
+
 .ad_text_bg_tertiary h2{
   color: black;
 }
@@ -49,7 +58,6 @@ section{
 .ad_form textarea::placeholder{
   color: var(--ad-main-blue);
   opacity: 1;
-  font-weight: 600;
 }
 
 .ad_form input:focus,
@@ -84,6 +92,8 @@ header{
   width: 230px;
   aspect-ratio: 1;
 }
+
+/* footer */
 
 /* media queries */
 
