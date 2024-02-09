@@ -3,6 +3,10 @@
   --ad-main-green:#1abc9c;
 }
 
+h2{
+  font-size: 3rem;
+}
+
 /* utilities */
 
 [class^="container"],
@@ -21,6 +25,27 @@
   background-color: var(--ad-main-green);
 }
 
+.ad_form input::placeholder,
+.ad_form textarea::placeholder{
+  color: var(--ad-main-blue);
+  font-weight: 600;
+}
+
+.ad_form input:focus,
+.ad_form textarea:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.ad_form button{
+  background-color: var(--ad-main-green);
+}
+
+.ad_form button:hover{
+  background-color: var(--ad-main-green);
+  opacity: .9;
+}
+
 /* header */
 
 header{
@@ -29,11 +54,11 @@ header{
 
 /* main */
 
-#start h1.title_md{
+#jumbotron h2.title_md{
   font-size: 3.5rem;
 }
 
-#start .star span{
+.star span{
   width: 4rem;
 }
 
@@ -41,14 +66,14 @@ header{
 
 /* tablet */
 @media screen and (min-width: 768px){
-  #start .star span{
+ .star span{
     width: 8rem;
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px){
-  #start .star span{
+ .star span{
     width: 10rem;
   }
 }
