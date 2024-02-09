@@ -16,6 +16,10 @@ h2{
   font-size: 1.5rem;
 }
 
+h3{
+  font-size: 1.1rem;
+}
+
 section{
   padding: 40px 0;
 }
@@ -24,6 +28,10 @@ section{
 
 .debug{
   border: 1px solid black;
+}
+
+.ad_text_success{
+  color: var(--ad-main-green);
 }
 
 .ad_text_bg_primary{
@@ -80,6 +88,14 @@ section{
   max-width: 140px;
 }
 
+.fs1_1rem{
+  font-size: 1.1rem;
+}
+
+.fs0_8rem{
+  font-size: .8rem;
+}
+
 /* header */
 
 header{
@@ -94,6 +110,23 @@ header{
 }
 
 /* footer */
+
+footer .footer-top{
+  padding: 60px 0 70px;
+}
+
+footer .footer-top .atw span{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+footer .footer-bottom{
+  padding: 40px 0 50px;
+}
 
 /* media queries */
 
