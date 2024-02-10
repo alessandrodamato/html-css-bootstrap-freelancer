@@ -109,6 +109,19 @@ header{
   aspect-ratio: 1;
 }
 
+#portfolio .add_img{
+  display: none;
+  background-color: rgba(26, 189, 156, .6);
+  color: white;
+  font-size: 6rem;
+}
+
+#portfolio .ad_card:hover .add_img{
+  display: block !important;
+  display: flex !important;
+}
+
+
 /* footer */
 
 footer .footer-top{
